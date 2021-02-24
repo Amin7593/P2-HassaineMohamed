@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Réservia by Hassaine</title>
+        <link href="P2-style.css" rel="stylesheet">
+        <link href="Raleway/Raleway-VariableFont_wght.ttf" rel="stylesheet" type="text/css">
+        <link href="/Users/33766/Documents/P2-HassaineMohamed-24-02-21/FontAwesome/all.css" rel="stylesheet" type="text/css">    
+    <body>
+
+        <header class="header">
+            <img class="headerImg" src="logoreservia.png" alt="Reservia">
+            <nav class="headerNav">
+                <a class="headerNavLink" href="#home" data-active="true">Hébergement</a>
+                <a class="headerNavLink" href="#activity" data-active="false">Activités</a>
+            </nav>
+            <a class="headerSignup" href="#">S'inscrire</a>
+        </header>
+  
+    <main class="main">
+        
+    <section class="search">
+            <header class="searchHeader">
+                <h1 class="searchHeaderTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="searchHeaderSubtitle">En plein centre de ville ou en pleine nature</p>
+            </header>
+            <form class="searchForm" action="proceedFrom.html" method="GET">
+                <span class="searchFormIcon">
+                    <i class="fas fa-map-marker-alt searchFormiconIcon" aria-hidden="true"></i>
+                </span>
+                <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+                <button class="searchFormSubmitinput">
+                <span class="searchFormSubmitinputText">Rechercher</span>
+                <i class="searchFormSubmitinputIcon fas fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+            <div class="searchFilter">
+                <h2 class="searchFilterTitle">Filtres</h2>
+                <div class="searchFilters">
+                    <div class="searchFiltersIcon">
+                        <i class="fas fa-money-bill-wave searchFiltersIconicon" aria-hidden="true"></i>
+                    </div>
+                    <span class="searchFiltersTitle">Économique</span>
+                </div>
+                <div class="searchFilters">
+                    <div class="searchFiltersIcon">
+                        <i class="fas fa-child searchFiltersIconicon" aria-hidden="true"></i>
+                    </div>
+                <span class="searchFiltersTitle">Familial</span>
+        </div>
+        <div class="searchFilters">
+          <div class="searchFiltersIcon">
+            <i class="fas fa-heart searchFiltersIconicon" aria-hidden="true"></i>
+          </div>
+          <span class="searchFiltersTitle">Romantique</span>
+        </div>
+        <div class="searchFilters">
+          <div class="searchFiltersIcon">
+            <i class="fas fa-dog searchFiltersIconicon" aria-hidden="true"></i>
+          </div>
+          <span class="searchFiltersTitle">Animaux autorisés</span>
+        </div>
+      </div>
+      <div class="searchResult">
+        <div class="searchResultIcon"><i class="fas fa-info searchResultIconicon" aria-hidden="true"></i></div>
+        <p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </section>
+    
+    <section class="home" id="home">
+      <div class="homebox">
+        <header class="homeboxHeader">
+          <h2 class="homeboxHeaderTitle">Hébergement à Marseille</h2>
+        </header>
+        <article class="homeboxCard">
+          <a href="#">
+            <figure class="homeboxCardFigure">
+              <img class="homeboxCardFigureImg" src="AubergeCannebiere.jpg" alt="Au coeur de Massilia.">
+              <figcaption class="homeboxCardFigureCaption">
+                <h3 class="homeboxCardFigureCaptionTitle">Auberge la Cannebière</h3>
+              </figcaption>
+            </figure>
+            <p class="homeboxCardDesc">Nuit à partir de <strong class="homeboxCardDescPrice">25€</strong></p>
+            <div class="homeboxCardGrade">
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="false" aria-hidden="true"></i>
+            </div>
+          </a>
+        </article>
+        <article class="homeboxCard">
+          <a href="#">
+            <figure class="homeboxCardFigure">
+              <img class="homeboxCardFigureImg" src="HotelduPort.jpg" alt="Place to place zin'.">
+              <figcaption class="homeboxCardFigureCaption">
+                <h3 class="homeboxCardFigureCaptionTitle">Hôtel du port</h3>
+              </figcaption>
+            </figure>
+            <p class="homeboxCardDesc">Nuit à partir de <strong class="homeboxCardDescPrice">52€</strong></p>
+            <div class="homeboxCardGrade">
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+            </div>
+          </a>
+        </article>
+        <article class="homeboxCard">
+          <a href="#">
+            <figure class="homeboxCardFigure">
+              <img class="homeboxCardFigureImg" src="HotelMouette.jpg" alt="La sonorie du réveil sera de qualité.">
+              <figcaption class="homeboxCardFigureCaption">
+                <h3 class="homeboxFigureCaptionTitle">Hôtel Les mouettes</h3>
+              </figcaption>
+            </figure>
+            <p class="homeboxCardDesc">Nuit à partir de <strong class="homeboxCardDescPrice">76€</strong></p>
+            <div class="homeboxCardGrade">
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="false" aria-hidden="true"></i>
+            </div>
+          </a>
+        </article>
+        <article class="homeboxCard">
+          <a href="#">
+            <figure class="homeboxCardFigure">
+              <img class="homeboxCardFigureImg" src="HotelMer.jpg" alt="Les pieds dans l'eau.">
+              <figcaption class="homeboxCardFigureCaption">
+                <h3 class="homeboxFigureCaptionTitle">Auberge de la mer</h3>
+              </figcaption>
+            </figure>
+            <p class="homeboxCardDesc">Nuit à partir de <strong class="homeboxCardDescPrice">46€</strong></p>
+            <div class="homeboxCardGrade">
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="false" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="false" aria-hidden="true"></i>
+            </div>
+          </a>
+        </article>
+        <article class="homeboxCard">
+          <a href="#">
+            <figure class="homeboxCardFigure">
+              <img class="homeboxCardFigureImg" src="LePanier.jpg" alt="Tu tires ou tu ceuilles?">
+              <figcaption class="homeboxCardFigureCaption">
+                <h3 class="homeboxFigureCaptionTitle">Auberge Le Panier</h3>
+              </figcaption>
+            </figure>
+            <p class="homeboxCardDesc">Nuit à partir de <strong class="homeboxCardDescPrice">23€</strong></p>
+            <div class="homeboxCardGrade">
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="false" aria-hidden="true"></i>
+            </div>
+          </a>
+        </article>
+        <article class="homeboxCard">
+          <a href="#">
+            <figure class="homeboxCardFigure">
+              <img class="homeboxCardFigureImg" src="Amina.jpg" alt="Comme chez toi.">
+              <figcaption class="homeboxCardFigureCaption">
+                <h3 class="homeboxCardFigureCaptionTitle">Hôtel chez Amina</h3>
+              </figcaption>
+            </figure>
+            <p class="homeboxCardDesc">Nuit à partir de <strong class="homeboxCardDescPrice">96€</strong></p>
+            <div class="homeboxCardGrade">
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+            </div>
+          </a>
+        </article>
+        <a class="homeboxViewmore" href="#">Afficher plus</a>
+      </div>
+
+      <aside class="homeboxPopular">
+        <h2 class="homeboxPopularTitle">Les plus populaire <i class="fas fa-chart-line" aria-hidden="true"></i></h2>
+        <article class="homeboxCard homeboxPopularCard">
+          <a class="homeboxPopularcontent" href="#">
+            <div class="homeboxPopularcontentimg">
+              <img class="homeboxPopularcontentimgImg" src="HotelSoleil.jpg" alt="Pour un séjour ensoleillé.">
+            </div>
+            <div class="homeboxPopularcontentContent">
+              <h3 class="homeboxCardFigureCaptionTitle">Hôtel Le soleil du matin</h3>
+              <p class="homeboxCardDesc">Nuit à partir de <strong class="homeboxCardDescPrice">128€</strong></p>
+              <div class="homeboxPopularcontentContentWhitespace"></div>
+              <div class="homeboxCardGrade">
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="homeboxCard homeboxPopularCard">
+          <a class="homeboxPopularcontent" href="#">
+            <div class="homeboxPopularcontentimg">
+              <img class="homeboxPopularcontentimgImg" src="ChambreHote.jpg" alt="Hôter nos chambres sans mesures.">
+            </div>
+            <div class="homeboxPopularcontentContent">
+              <h3 class="homeboxCardFigureCaptionTitle">Au coeur de l'eau Chambres d'hôtes</h3>
+              <p class="homeboxCardDesc">Nuit à partir de <strong class="homeboxCardDescPrice">71€</strong></p>
+              <div class="homeboxPopularcontentContentWhitespace"></div>
+              <div class="homeboxCardGrade">
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="false" aria-hidden="true"></i>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="homeboxCard hostingPopularCard">
+          <a class="homeboxPopularcontent" href="#">
+            <div class="homeboxPopularcontentimg">
+              <img class="homeboxPopularcontentimgImg" src="BleuetBlanc.jpg" alt="Il ne manque plus le rouge de l'amour.">
+            </div>
+            <div class="homeboxPopularcontentContent">
+              <h3 class="homeboxCardFigureCaptionTitle">Hôtel Tout bleu et Blanc</h3>
+              <p class="homeboxCardDesc">Nuit à partir de <strong class="hostingMainCardDescPrice">68€</strong></p>
+              <div class="homeboxPopularcontentContentWhitespace"></div>
+              <div class="homeboxCardGrade">
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star homeboxCardGradeIcon" data-active="false" aria-hidden="true"></i>
+              </div>
+            </div>
+          </a>
+        </article>
+      </aside>
+      
+    </section>
+
+    <section class="activity" id="activity">
+      <h2 class="activityTitle">Activités à Marseille</h2>
+      <a href="#" class="activityCard activityCard1">
+        <div class="activityCardimg">
+          <img class="activityCardimgImg" src="VieuxPort.jpg" alt="Mythique">
+        </div>
+        <h3 class="activityCardTitle">Vieux Port</h3>
+      </a>
+      <a href="#" class="activityCard activityCard2">
+        <div class="activityCardimg">
+          <img class="activityCardimgImg" src="FortPomegues.jpg" alt="Historique">
+        </div>
+        <h3 class="activityCardTitle">Fort de Pomègues</h3>
+      </a>
+      <a href="#" class="activityCard activityCard3">
+        <div class="activityCardimg">
+          <img class="activityCardimgImg" src="ParcCalanques.jpg" alt="Magnifique">
+        </div>
+        <h3 class="activityCardTitle">Parc National des Calanques</h3>
+      </a>
+      <a href="#" class="activityCard activityCard4">
+        <div class="activityCardimg">
+          <img class="activityCardimgImg" src="NotreDameDeGarde.jpg" alt="Bijoux des collines">
+        </div>
+        <h3 class="activityCardTitle">Notre-Dame-de-la-Garde</h3>
+      </a>
+      <a href="#" class="activityCard activityCard5">
+        <div class="activityCardimg">
+          <img class="activityCardimgImg" src="IleFrioul.jpg" alt="Vue imprenable">
+        </div>
+        <h3 class="activityCardTitle">Île du Frioul</h3>
+      </a>
+      <a href="#" class="activityCard activityCard6">
+        <div class="activityCardimg">
+          <img class="activityCardimgImg" src="ParcLongchamp.jpg" alt="Gaté">
+        </div>
+        <h3 class="activityCardTitle">Parc Longchamp</h3>
+      </a>
+    </section>
+  
+    </main>
+  
+    <footer class="footer">
+    <div class="footerbox">
+      <div class="footerboxCol">
+        <h3 class="footerboxColTitle">A propos</h3>
+        <a href="#" class="footerboxColLink">Fonctionnement du site</a>
+        <a href="#" class="footerboxColLink">Conditions générales de vente</a>
+        <a href="#" class="footerboxColLink">Données et confidentialités</a>
+      </div>
+      <div class="footerboxCol">
+        <h3 class="footerboxColTitle">Nos hébergement</h3>
+        <a href="#" class="footerboxColLink">Charte qualité</a>
+        <a href="#" class="footerboxColLink">Soumettre votre hotel</a>
+      </div>
+      <div class="footerboxCol">
+        <h3 class="footerboxColTitle">Assitance</h3>
+        <a href="#" class="footerboxColLink">Centre d'aide</a>
+        <a href="#" class="footerboxColLink">Nous contacter</a>
+      </div>
+    </div>
+    </footer>
+  
+
+    </body>
+  </html>
